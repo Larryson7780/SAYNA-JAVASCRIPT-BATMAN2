@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+}
+
+.home, .game {
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+
+#fondBatmanRouge {
+    background-image: url("../assets/Illustrations/Bathome1.png");
+    background-size: cover;
+    background-color: #cccccc;
+    place-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.alignement_horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bandeAnnonce iframe{
+    width: 1000px;
+    height: 500px;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form fieldset {
+    border: 0;
+}
+
+.form fieldset input:not([type="checkbox"], [type='submit']) {
+    width: 100%;
+}
+
+.form fieldset div {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.boiteChoix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.choix {
+    font-size: 12px;
+    border: white solid 2px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(
+            rgba(237, 221, 191, 0.4), rgba(25, 88, 125, 0.4)
+    );
+}
+
+.choix:hover {
+    background: linear-gradient(
+            rgba(237, 221, 191, 1), rgba(25, 88, 125, 1)
+    );
+}
+
+.textPiedDePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#logoPiedDePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2, h3, p, blockquote {
+    color: white;
+}
+
+em {
+    color: grey;
+}
+
+.multimedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}

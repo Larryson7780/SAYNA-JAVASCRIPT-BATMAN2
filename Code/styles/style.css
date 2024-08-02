@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body {
+    width: 1440px;
+    border: black solid 2px;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    font-family: Rajdhani, serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#fondBatmanRouge {
+    background-image: url("../assets/Illustrations/Bathome1.png");
+    background-size: cover;
+    background-color: #cccccc;
+    width: 1440px;
+    height: 901px;
+    display: grid;
+    place-items: center; /* Centrer horizontalement et verticalement */
+}
+
+#fondBatmanRouge > div {
+    text-align: center; /* Centrer le texte à l'intérieur de la div */
+}
+
+#fondBatmanRouge p {
+    width: 468px;
+}
+
+#fondBatmanRouge ul {
+    padding: 0;
+}
+
+#fondBatmanRouge ul li {
+    list-style-type: none;
+}
+
+#fondBatmanRouge div ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contour {
+    border: white solid 2px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(
+            rgba(237, 221, 191, 0.4), rgba(25, 88, 125, 0.4)
+    );
+}
+
+.contour:hover {
+    background: linear-gradient(
+            rgba(237, 221, 191, 1), rgba(25, 88, 125, 1)
+    );
+}
+
+.home {
+    font-size: 30px;
+}
+
+.home:hover {
+    text-decoration: underline yellow solid ;
+    color: yellow;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+/* fondBatmanRouge ⬆️*/
+
+p {
+    line-height: 2em;
+    padding-bottom: 50px;
+}
+
+
+#flecheDown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quatreParagraphe {
+    width: 760px;
+    text-align: justify;
+}
+
+.troisImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.troisImages li {
+    text-align: center;
+    list-style: none;
+}
+
+.troisImages li p {
+    margin-top: 5px; /* Ajouter un peu d'espace entre l'image et le texte */
+}
+
+aside img {
+    display: block;
+}
+
+#multimedia {
+    display: flex;
+    padding: 0;
+    margin: 60px;
+    justify-content: center;
+}
+
+#texteMultimedia {
+    width: 570px;
+    height: 230px;
+    font-size: 14px;
+    text-align: justify;
+    border-radius: 0 10px 10px 0;
+    background-color: #8d8181;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form fieldset {
+    border: 0;
+}
+
+.form fieldset input:not([type="checkbox"], [type='submit']) {
+    width: 100%;
+}
+
+.form fieldset div {
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#bandeAnnonce {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+
+.boiteChoix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.choix {
+    font-size: 12px;
+    border: white solid 2px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(
+            rgba(237, 221, 191, 0.4), rgba(25, 88, 125, 0.4)
+    );
+}
+
+.choix:hover {
+    background: linear-gradient(
+            rgba(237, 221, 191, 1), rgba(25, 88, 125, 1)
+    );
+}
+
+#flecheDown, h2, #bandeAnnonce, #formulaire, footer {
+    padding: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logoBatmanUpDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+#position {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 25%;
+    right: 0
+}
+
+.multimedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleche {
+    padding: 150px;
+}
+
+.textPiedDePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#logoPiedDePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

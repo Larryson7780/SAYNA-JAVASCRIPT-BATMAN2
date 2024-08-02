@@ -1,0 +1,41 @@
+header {
+    background-image: url("../../Illustration/Batgame_1.png");
+    height: 866px;
+    background-size: cover;
+    background-color: #cccccc;
+    place-items: center;
+}
+
+header p {
+    text-transform: uppercase;
+    position: relative;
+    top: 200px;
+    font-size: 5rem;
+    color: white;
+}
+
+.numero_question {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+form label {
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sticker_question {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
