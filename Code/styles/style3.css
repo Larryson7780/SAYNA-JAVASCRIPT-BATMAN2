@@ -47,6 +47,24 @@ label {
     align-items: center;
     margin-top: 50px;
 }
+
+.question {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.demarrer_quizz {
+    text-align: center;
+    font-size: 2.5em;
+    background: linear-gradient(to right, grey, orange);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 50px;
+}
+
 input[type="submit"] {
     text-align: center;
     font-size: 2.5em;
