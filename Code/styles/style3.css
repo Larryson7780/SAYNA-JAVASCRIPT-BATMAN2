@@ -24,6 +24,14 @@ header p {
 form label {
     font-size: 20px;
     color: white;
+    padding: 5px;
+    border-radius: 0;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 label {
@@ -38,4 +46,16 @@ label {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+input[type="submit"] {
+    text-align: center;
+    font-size: 2.5em;
+    background: linear-gradient(to right, grey, orange);
+    border-radius: 5px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
 }
