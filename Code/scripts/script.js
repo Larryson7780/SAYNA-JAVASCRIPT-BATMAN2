@@ -27,18 +27,3 @@ $('.voir_ennemis').click(function () {
         scrollTop: $('#ennemis').offset().top
     }, 1000);
 });
-/*
-
-function check_formulaire() {
-    if (email.val() === '' || select.val() === '') {
-        submit.prop('disabled', true);
-    } else {
-        submit.prop('disabled', false);
-    }
-}
-
-check_formulaire();*/
-
-const body = document.querySelector("body");
-
-console.log(body.children);
