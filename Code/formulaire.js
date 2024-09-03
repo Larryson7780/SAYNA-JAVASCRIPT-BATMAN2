@@ -1,6 +1,19 @@
 let key = "556db057140c4b8f118864feb42715fa";
 let id = 69; // batman
 
+const demarrer_quizz = document.querySelector(".demarrer_quizz");
+const quiz = document.querySelector(".quiz");
+const numero_question = document.querySelector(".numero_question");
+
+demarrer_quizz.onmouseover = function() {
+    this.style.cursor = 'pointer';
+};
+
+demarrer_quizz.addEventListener("click", () => {
+    quiz.style.display = "block";
+    numero_question.style.display = "block";
+})
+
 fetch(`https://www.superheroapi.com/api.php/${key}/${id}`)
     .then(response => {
         if (!response.ok) {
@@ -104,6 +117,7 @@ fetch(`https://www.superheroapi.com/api.php/${key}/${id}`)
                     const reponse = document.querySelector(".reponseQuiz");
                     reponse.style.width = "200px";
                     reponse.innerHTML = `
+
 <div class="message">
     Bravo, tu as terminé le quizz !
 </div>
